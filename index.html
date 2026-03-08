@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipanshu Jindal | AI Builder</title>
+    <meta name="description"
+        content="Portfolio of Dipanshu Jindal, Practical AI Builder turning complex problems into intelligent solutions.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="loading">
+
+    <!-- Premium Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="glitch-loader" data-text="INITIALIZING_AI...">INITIALIZING_AI...</div>
+            <div class="progress-container">
+                <div class="progress-bar-loader"></div>
+            </div>
+            <div class="tech-gibberish">
+                <span id="gibberish-text">Loading neural pathways...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">DJ<span>.ai</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#lab">Innovation Lab</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content reveal">
+            <div class="hero-image-wrapper">
+                <div class="glow-ring"></div>
+                <img src="img-profile.jpg" alt="Dipanshu Jindal" class="hero-image"
+                    style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            </div>
+
+            <h1 class="glitch" data-text="Dipanshu Jindal">Dipanshu Jindal</h1>
+            <h2 class="tagline">"Practical AI Builder turning complex problems into <span
+                    class="gradient-text">intelligent solutions</span>."</h2>
+
+            <div class="impact-stats">
+                <div class="stat-item">
+                    <span class="stat-num">45+</span>
+                    <span class="stat-label">Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">70+</span>
+                    <span class="stat-label">Legal Docs Generated</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">17</span>
+                    <span class="stat-label">Bugs Fixed</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll Down</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about section-padding" id="about">
+        <div class="container reveal">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-image-container reveal">
+                    <img src="img_about.jpg" alt="About Dipanshu"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                </div>
+                <div class="experience-badge">
+                    <span>B.Tech</span>
+                    <p>AI & Data Science</p>
+                </div>
+                <div class="about-text">
+                    <p class="lead">Since 16, I have been building apps solving real problems — from 'My Four Image' app
+                        to a Legal AI Assistant used by law students and advocates.</p>
+                    <p>I don't just learn AI; I implement practical solutions. I've participated in the NASA Space Apps
+                        Challenge (ExoScan AI, Galactic Problem Solver) and IIT Delhi Hackathons, and completed the
+                        Google Agentic AI capstone among millions of participants.</p>
+                    <blockquote class="philosophy">
+                        "Where no rules exist, create your own."
+                    </blockquote>
+                    <p>This philosophy drives my coding and innovation. My passion lies in turning theoretical ideas
+                        into products, from AI-powered tools like ReTrade AI to theoretical physics concepts like
+                        invisibility.</p>
+                    <div class="highlights">
+                        <span class="highlight-tag"><i class="fas fa-hammer"></i> Builder Mindset</span>
+                        <span class="highlight-tag"><i class="fas fa-brain"></i> Practical Problem-Solving</span>
+                        <span class="highlight-tag"><i class="fas fa-lightbulb"></i> Insatiable Curiosity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects section-padding" id="projects">
+        <div class="container reveal">
+            <h2 class="section-title">Featured <span class="gradient-text">Architectures</span></h2>
+
+            <!-- Project 1 -->
+            <div class="project-card featured">
+                <div class="project-content">
+                    <h3>Legal AI Assistant</h3>
+                    <p class="role">AI-powered legal support system for Indian courts</p>
+                    <p class="description">Answers legal queries with precise IPC/CrPC references, drafts legal
+                        documents, provides voice-to-text case briefs, and performs deep PDF analysis for advocates and
+                        students.</p>
+                    <div class="project-metrics">
+                        <div class="metric"><i class="fas fa-users"></i> 45 Users</div>
+                        <div class="metric"><i class="fas fa-file-contract"></i> 50-70 Docs Generated</div>
+                        <div class="metric"><i class="fas fa-bug-slash"></i> 17 Bugs Fixed</div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Streamlit</span><span>Gemini 2.0 Flash</span><span>PyPDF</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://smart-advocate.streamlit.app/" target="_blank"
+                            class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <img src="legal-ai.png" alt="Legal AI Assistant"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card featured reverse">
+                <div class="project-content">
+                    <h3>ReTrade AI</h3>
+                    <p class="role">AI mobile app for plastic waste management in India</p>
+                    <p class="description">Empowers communities to recycle smarter and reduce carbon footprints using
+                        computer vision for plastic detection, seamlessly connecting users with local recyclers.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> ML Plastic Detection</li>
+                        <li><i class="fas fa-check"></i> Eco-points & Gamified Badges</li>
+                        <li><i class="fas fa-check"></i> CO₂ Savings Tracker & Voice Support</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Machine Learning</span><span>Mobile AI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/ZxP1Bo_woq0?si=Q6liN-vd5hBrriMC" target="_blank"
+                            class="btn btn-primary btn-sm"><i class="fab fa-youtube"></i> YouTube Demo</a>
+                        <a href="#" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <img src="retrade-ai.png" alt="ReTrade AI"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card featured">
+                <div class="project-content">
+                    <h3>ExoScan AI <span class="badge">NASA Space Apps</span></h3>
+                    <p class="role">Team Leader & Full Stack Developer</p>
+                    <p class="description">An advanced AI system designed to detect exoplanets by analyzing NASA light
+                        curve data. Achieved 'Galactic Problem Solver' status, representing India on a global stage.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>ML Algorithms</span><span>NASA Data API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/-YSmtSWlgWk?si=8ChiU2kOjq8cpi_F" target="_blank"
+                            class="btn btn-primary btn-sm"><i class="fab fa-youtube"></i> YouTube Demo</a>
+                        <a href="https://github.com/jindaldipanshu23-glitch" target="_blank"
+                            class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <img src="exoscan-ai.png" alt="ExoScan AI"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section class="other-projects section-padding">
+        <div class="container reveal">
+            <h2 class="section-title">More <span class="gradient-text">Builds</span></h2>
+            <div class="projects-grid">
+
+                <div class="grid-card">
+                    <div class="card-header">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                        <div class="card-links">
+                            <a href="https://youtube.com/@deepu2477" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://github.com/jindaldipanshu23-glitch" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>My Four Image App</h3>
+                    <p>An interactive guessing game mobile application built with Thunkable, focusing on user engagement
+                        and logic progression.</p>
+                    <div class="tech-stack small">
+                        <span>Thunkable</span><span>Game Dev</span>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="card-header">
+                        <i class="fas fa-chart-line fa-2x"></i>
+                        <div class="card-links">
+                            <a href="https://github.com/jindaldipanshu23-glitch" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Kaggle ML Intro</h3>
+                    <p>A foundational machine learning project analyzing datasets utilizing core data science libraries
+                        to derive statistical insights.</p>
+                    <div class="tech-stack small">
+                        <span>Python</span><span>Pandas</span><span>NumPy</span>
+                    </div>
+                </div>
+
+                <!-- Placeholder for future project -->
+                <div class="grid-card empty-state">
+                    <div class="card-header">
+                        <i class="fas fa-code fa-2x"></i>
+                    </div>
+                    <h3>Building Next...</h3>
+                    <p>Currently researching and developing new AI implementations focusing on agentic workflows and LLM
+                        orchestration.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- AI/ML Journey & DSA Section -->
+    <section class="journey-skills section-padding" id="journey">
+        <div class="container">
+            <div class="split-layout">
+                <!-- Journey Timeline -->
+                <div class="journey reveal">
+                    <h2 class="section-title">AI / ML <span class="gradient-text">Timeline</span></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Google Agentic AI Capstone</h4>
+                                <p>Completed prestigious capstone project focusing on autonomous AI agents among
+                                    millions of participants globally.</p>
+                                <span class="cert-badge"><i class="fas fa-certificate"></i> Verified</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Streamlit & Gemini Integration</h4>
+                                <p>Built end-to-end full stack AI applications like the Legal AI Assistant deployed for
+                                    real-world usage.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Machine Learning Foundations</h4>
+                                <p>Mastered Pandas, NumPy, and core predictive modeling algorithms through Kaggle and
+                                    academic projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DSA & Skills -->
+                <div class="skills-dsa reveal">
+                    <h2 class="section-title">Core <span class="gradient-text">Metrics</span></h2>
+
+                    <div class="dsa-card glass-panel">
+                        <h3><i class="fas fa-code"></i> DSA & Problem Solving</h3>
+                        <div class="stat-row">
+                            <div class="stat-circle">
+                                <span>C++</span>
+                            </div>
+                            <div class="dsa-info">
+                                <h4>Algorithm Specialist</h4>
+                                <p>Track record of conquering Top-Hard LeetCode problems, optimizing for time and space
+                                    complexity.</p>
+                                <a href="https://github.com/jindaldipanshu23-glitch" target="_blank"
+                                    class="text-link">View GitHub Repos &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <div class="skill-info"><span>Python & ML</span><span>95%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info"><span>Generative AI (Gemini APIs)</span><span>90%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info"><span>C++ / DSA</span><span>85%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info"><span>Web / Streamlit</span><span>80%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Lab -->
+    <section class="innovation-lab section-padding" id="lab">
+        <div class="container reveal">
+            <h2 class="section-title text-center">Innovation <span class="gradient-text">Lab</span></h2>
+            <p class="section-subtitle text-center">Where crazy theoretical ideas meet technical blueprints.</p>
+
+            <div class="lab-grid">
+                <div class="lab-card glass-panel">
+                    <div class="lab-icon"><i class="fas fa-eye-slash"></i></div>
+                    <h3>Project Invisibility</h3>
+                    <span class="lab-tag theme-physics">Theoretical Physics</span>
+                    <p>Conceptualizing blueprints using metamaterials and optical camouflage theories. Exploring how
+                        light refraction principles can be mapped and simulated algorithmically.</p>
+                </div>
+
+                <div class="lab-card glass-panel">
+                    <div class="lab-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Swarm Intelligence</h3>
+                    <span class="lab-tag theme-ai">Experimental AI</span>
+                    <p>Researching multi-agent systems where decentralised, self-organized nodes communicate to solve
+                        complex spatial problems faster than monolithic models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container reveal">
+            <h2 class="section-title">Professional <span class="gradient-text">Gallery</span></h2>
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="placeholder-gallery1.jpg" alt="NASA Space Apps" class="placeholder"
+                        data-placeholder="NASA Hackathon Photo">
+                    <div class="gallery-overlay">
+                        <h4>NASA Space Apps</h4>
+                        <p>Galactic Problem Solver Award</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="placeholder-gallery2.jpg" alt="IIT Delhi Hackathon" class="placeholder"
+                        data-placeholder="IIT Delhi Event Photo">
+                    <div class="gallery-overlay">
+                        <h4>IIT Delhi Hackathon</h4>
+                        <p>Building the future</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="placeholder-gallery3.jpg" alt="ReTrade Demo" class="placeholder"
+                        data-placeholder="ReTrade AI Pitch">
+                    <div class="gallery-overlay">
+                        <h4>ReTrade AI Demo</h4>
+                        <p>Pitching sustainable tech</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item wide">
+                    <img src="placeholder-gallery4.jpg" alt="Team Work" class="placeholder"
+                        data-placeholder="Team Collaboration Photo">
+                    <div class="gallery-overlay">
+                        <h4>Collaboration & Leadership</h4>
+                        <p>Leading the ExoScan AI team</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section class="contact section-padding" id="contact">
+        <div class="container reveal">
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <h2>Let's build something <span class="gradient-text">extraordinary.</span></h2>
+                    <p>Currently open for roles, freelance projects, and hackathon team-ups.</p>
+
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> jindaldipanshu23@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> India</li>
+                    </ul>
+
+                    <div class="social-links">
+                        <a href="https://github.com/jindaldipanshu23-glitch" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dipanshu-jindal-731550371?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://youtube.com/@deepu2477?si=jGCqnAmWv4yCX5aX" target="_blank"
+                            aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/_dipanshu_jindal_?igsh=dm1uemc3ejcya2o" target="_blank"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required placeholder="How can I help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">DJ<span>.ai</span></div>
+            <div class="footer-socials">
+                <a href="https://github.com/jindaldipanshu23-glitch" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/dipanshu-jindal-731550371?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Dipanshu Jindal. Powered by IDX / Made with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
